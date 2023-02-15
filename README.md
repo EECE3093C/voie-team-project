@@ -25,7 +25,7 @@ Anyone interested in weightlifting, fitness, and working out who wants to improv
 
 ### Why Ours Is Different
 - Our app creates a dedicated community for all workout enthusiasts, not just those of a specific niche. By catering to all fitness types, the app offers a more personalized experience and a sense of community not found on other platforms.
-- Our app offers personalized workout recommendations and insights based on user data, setting it apart from other fitness apps. By tracking progress and routines, machine learning algorithms can suggest tailored plans for more effective goal achievement, adding value for users.
+- Our app offers personalized recommendations for workouts and other users and insights based on user data, setting it apart from other fitness apps. By tracking progress and routines, machine learning algorithms can suggest tailored plans for more effective goal achievement, adding value for users.
 
 ## Software Architecture
 ### Component Interactions
