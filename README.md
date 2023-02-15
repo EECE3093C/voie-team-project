@@ -24,11 +24,14 @@ The app is designed for individuals interested in weightlifting, fitness and wor
 - Another potential novelty could be the app's ability to provide personalized workout recommendations and insights based on user data. By tracking workout routines and progress, the app could use machine learning algorithms to suggest tailored workout plans that are more effective in achieving specific fitness goals. This feature could differentiate the app from other fitness apps and provide added value to users.
 In summary, the app's potential novelty lies in its ability to provide a dedicated social platform for weightlifting and working-out enthusiasts, and its ability to leverage data and machine learning to provide more personalized and effective workout recommendations. If implemented well, these features could make the app compelling and worth developing.
 
-## Software Architecture (Fill In Below With Diagrams or Words)
-### Make it clear that the system can be built, making good use of the available resources and technology.
+## Software Architecture
+Write how the system can be built using available resources and technology (Insert Diagrams or Words)
 ### Architecture and Interaction of Components/Modules
+Insert
 ### Data Accessed and Stored
+Insert
 ### Languages and Toolkits
+Insert
 
 ## Challenges and Risks
 ### Challenges of Staying on Schedule
