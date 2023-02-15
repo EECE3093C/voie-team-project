@@ -37,9 +37,8 @@ Create graphic/mermaid diagram using below information:
 - Cloud-based services: hosting and deployment
 
 ### Languages and Toolkits
-- Front-end development: JavaScript
-- Back-end development: Python
-- Framework for back-end development: Django
+- Front-end and back-end development: Python
+- Framework: Django
 - Database: SQLite
 - Cloud-based service: Google Cloud
 
