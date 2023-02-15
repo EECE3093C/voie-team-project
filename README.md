@@ -37,7 +37,7 @@ Insert
 Insert
 
 ## Challenges and Risks
-### Extra Tasks That Affect Development Schedule
+### What Might Affect The Development Schedule
 - Each app development stage (ideation, prototyping, design, development, testing, and deployment) has unique challenges, i.e., creating an intuitive user interface that meets the needs of fitness enthusiasts and is visually appealing.
 - Ensuring scalability by planning and testing infrastructure to maintain stability and performance with a growing user base
 - Unforeseen technical challenges during the development process, such as from technology stack, third-party services, or device compatibility issues
