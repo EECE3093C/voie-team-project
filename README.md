@@ -28,13 +28,27 @@ Anyone interested in weightlifting, fitness, and working out who wants to improv
 - Our app offers personalized workout recommendations and insights based on user data, setting it apart from other fitness apps. By tracking progress and routines, machine learning algorithms can suggest tailored plans for more effective goal achievement, adding value for users.
 
 ## Software Architecture
-Write how the system can be built using available resources and technology (Insert Diagrams or Words)
+Create graphic/mermaid diagram using below information:
 ### Architecture and Interaction of Components/Modules
-Insert
-### Data Accessed and Stored
-Insert
+- Front-end: user interface using a web browser
+- Back-end: server-side that processes user requests, interacts with the database, and generates responses that are sent back to the front-end
+- Database: where data is stored and retrieved
+- Application Programming Interfaces (APIs): interaction between application components, i.e., the front-end may make requests to the back-end API to retrieve or update data
+- Cloud-based services: hosting and deployment
+
 ### Languages and Toolkits
-Insert
+- Front-end development: JavaScript, HTML, or CSS
+- Back-end development: Python or Java
+- Framework for back-end development: such as React, Angular, Vue.js, Node.js, Django, Ruby on Rails, or Laravel
+- Database: MySQL, PostgreSQL, MongoDB, or Oracle
+- Cloud-based service: AWS, Google Cloud, or Microsoft Azure
+
+### Data Accessed and Stored
+- Personal profile information: name, age, gender, height, weight, and fitness goals
+- Workout routines: types of exercises, duration, intensity, and equipment used
+- Uploads: photos and videos
+- Interactions: chats, comments, and likes
+- Progress data: weight loss, muscle gain, and other fitness-related metrics
 
 ## Challenges and Risks
 ### What Might Affect The Development Schedule
