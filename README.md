@@ -28,7 +28,6 @@ Anyone interested in weightlifting, fitness, and working out who wants to improv
 - Our app offers personalized workout recommendations and insights based on user data, setting it apart from other fitness apps. By tracking progress and routines, machine learning algorithms can suggest tailored plans for more effective goal achievement, adding value for users.
 
 ## Software Architecture
-Create graphic/mermaid diagram using below information:
 ### Component Interactions
 - Front-end: user interface using a web browser
 - Back-end: server-side that processes user requests, interacts with the database, and generates responses that are sent back to the front-end
