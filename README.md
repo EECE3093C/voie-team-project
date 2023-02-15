@@ -29,7 +29,7 @@ Anyone interested in weightlifting, fitness, and working out who wants to improv
 
 ## Software Architecture
 Create graphic/mermaid diagram using below information:
-### Architecture and Interaction of Components/Modules
+### Component Interactions
 - Front-end: user interface using a web browser
 - Back-end: server-side that processes user requests, interacts with the database, and generates responses that are sent back to the front-end
 - Database: where data is stored and retrieved
