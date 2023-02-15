@@ -37,11 +37,11 @@ Create graphic/mermaid diagram using below information:
 - Cloud-based services: hosting and deployment
 
 ### Languages and Toolkits
-- Front-end development: JavaScript, HTML, or CSS
-- Back-end development: Python or Java
-- Framework for back-end development: such as React, Angular, Vue.js, Node.js, Django, Ruby on Rails, or Laravel
-- Database: MySQL, PostgreSQL, MongoDB, or Oracle
-- Cloud-based service: AWS, Google Cloud, or Microsoft Azure
+- Front-end development: JavaScript
+- Back-end development: Python
+- Framework for back-end development: Django
+- Database: SQLite
+- Cloud-based service: Google Cloud
 
 ### Data Accessed and Stored
 - Personal profile information: name, age, gender, height, weight, and fitness goals
