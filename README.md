@@ -1,4 +1,4 @@
-# BodyBuddy
+# FitConnect
 
 ## Vision
 Our web application allows weightlifting and workout enthusiasts to create profiles, upload and share photos and videos, follow other users, and interact through likes and comments. Our app is a social platform tailored to the fitness community, with features to track progress and connect with like-minded individuals interested in wellness and fitness. Users can document their fitness journey, discover new routines, and connect with the community by sharing their content.
