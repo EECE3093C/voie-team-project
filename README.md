@@ -37,12 +37,12 @@ Insert
 Insert
 
 ## Challenges and Risks
-### Challenges of Developing on Schedule
-- Each app development stage (ideation, prototyping, design, development, testing, and deployment) has unique challenges, i.e., creating an intuitive user interface that meets the needs of fitness enthusiasts and is visually appealing
-- Ensuring scalability: planning and testing infrastructure to maintain stability and performance with a growing user base
+### Extra Tasks That Affect Development Schedule
+- Each app development stage (ideation, prototyping, design, development, testing, and deployment) has unique challenges, i.e., creating an intuitive user interface that meets the needs of fitness enthusiasts and is visually appealing.
+- Ensuring scalability by planning and testing infrastructure to maintain stability and performance with a growing user base
 - Unforeseen technical challenges during the development process, such as from technology stack, third-party services, or device compatibility issues
 
-### Minimize The Risk
+### Minimizing Risk
 - Clear project plan: outlining milestones, deadlines, and development stages, including testing and quality assurance
 - Utilize team members’ unique skills and experience with specific jobs for designing, developing, and testing to quickly identify and resolve issues.
 - Conduct user research and testing to identify issues with user interface, features, and functionality and prevent failing to meet user needs.
