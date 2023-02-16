@@ -1,4 +1,4 @@
-# FitConnect - Social Fitness App
+# FITConnect - Social Fitness App
 
 ## Vision
 Our web application allows weightlifting and workout enthusiasts to create profiles, upload and share photos and videos, follow other users, and interact through likes and comments. Our app is a social platform tailored to the fitness community, with features to track progress and connect with like-minded individuals interested in wellness and fitness. Users can document their fitness journey, discover new routines, and connect with the community by sharing their content.
@@ -48,36 +48,16 @@ Anyone interested in weightlifting, fitness, and working out who wants to improv
 - Interactions: chats, comments, and likes
 - Progress data: weight loss, muscle gain, and other fitness-related metrics
 
-## Challenges and Risks
-### What Might Affect The Development Schedule
-- Each app development stage (ideation, prototyping, design, development, testing, and deployment) has unique challenges, i.e., creating an intuitive user interface that meets the needs of fitness enthusiasts and is visually appealing.
-- Ensuring scalability by planning and testing infrastructure to maintain stability and performance with a growing user base
-- Unforeseen technical challenges during the development process, such as from technology stack, third-party services, or device compatibility issues
-
-### Minimizing Risk
-- Clear project plan: outlining milestones, deadlines, and development stages, including testing and quality assurance
-- Utilize team members’ unique skills and experience with specific jobs for designing, developing, and testing to quickly identify and resolve issues.
-- Conduct user research and testing to identify issues with user interface, features, and functionality and prevent failing to meet user needs.
-- Scalable and reliable infrastructure can accommodate a growing user base, i.e., utilizing cloud-based services and minimizing downtime and service disruptions.
-- Continuously monitoring and improving the app with regular updates and maintenance ensures the app keeps up with evolving user needs and remains stable and secure.
-
-
-## Database Diagram - FitConnect
-
 ```mermaid
-
 ---
-title : Database Entity-Relationship Diagram
+title : Database Entity - Relationship Diagram
 ---
-
 erDiagram
-
     User ||--o{ Friend : " "
     User ||--o{ Post : " "
     User }o--o{ Image : " "
     User }o--o{ Comment : " "
     User }o--o{ Like : " "
-    
     User {
         int User_ID PK
         string First_Name
@@ -94,17 +74,14 @@ erDiagram
         string Password
         int Goal_ID
     }
-    
     Friend {
         int Friend_ID PK
         int User_ID FK
     }
-    
     Post ||--o{ Image : " "
     Post ||--o{ Comment : " "
     Post ||--o{ Like : " "
     Post ||--o{ Tag : " "
-    
     Post 
     {
         int Post_ID
@@ -114,34 +91,41 @@ erDiagram
         int Like_Count
         int Comment_Count
     }
-
     Image 
     {
         int User_ID
         int Post_ID
         image Image
     }
-
     Comment 
     {
         int User_ID
         int Post_ID
         string Text
     }
-
     Like 
     {
         int User_ID
         int Post_ID
     }
-
     Tag 
     {
         int Post_ID
         int User_ID
     }
 ```
+## Challenges and Risks
+### What Might Affect The Development Schedule
+- Each app development stage (ideation, prototyping, design, development, testing, and deployment) has unique challenges, i.e., creating an intuitive user interface that meets the needs of fitness enthusiasts and is visually appealing.
+- Ensuring scalability by planning and testing infrastructure to maintain stability and performance with a growing user base
+- Unforeseen technical challenges during the development process, such as from technology stack, third-party services, or device compatibility issues
+
+### Minimizing Risk
+- Clear project plan: outlining milestones, deadlines, and development stages, including testing and quality assurance
+- Utilize team members’ unique skills and experience with specific jobs for designing, developing, and testing to quickly identify and resolve issues.
+- Conduct user research and testing to identify issues with user interface, features, and functionality and prevent failing to meet user needs.
+- Scalable and reliable infrastructure can accommodate a growing user base, i.e., utilizing cloud-based services and minimizing downtime and service disruptions.
+- Continuously monitoring and improving the app with regular updates and maintenance ensures the app keeps up with evolving user needs and remains stable and secure.
 
 ## Powerpoint Presentation
-
-[FitConnect Presentation.pptx](https://github.com/EECE3093C/team-project-voie/files/10751700/FitConnect.Presentation.pptx)
+[FITConnect Presentation.pptx](https://github.com/EECE3093C/team-project-voie/files/10752147/FITConnect.Presentation.pptx)
