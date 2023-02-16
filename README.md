@@ -36,8 +36,8 @@ Anyone interested in weightlifting, fitness, and working out who wants to improv
 - Cloud-based services: hosting and deployment
 
 ### Languages and Toolkits
-- Front-end and back-end development: Python
-- Framework: Django
+- Front-end development: HTML, CSS, Javascript
+- Back-end development: Python
 - Database: SQLite
 - Cloud-based service: Google Cloud
 
