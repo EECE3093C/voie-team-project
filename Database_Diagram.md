@@ -1,7 +1,7 @@
 # FitConnect Database Diagram
 ```mermaid
 ---
-title : Database Entity - Relationship Diagram
+title : Database Entity-Relationship Diagram
 ---
 erDiagram
     User ||--o{ Friend : " "
