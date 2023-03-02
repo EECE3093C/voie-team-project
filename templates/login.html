@@ -4,7 +4,7 @@
 <html lang="en">
 <html>
     <head>
-        <title>Sign Up</title>
+        <title>Loginn</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     </head>
 
@@ -14,24 +14,18 @@
             <div class="topwrap">
                 <div>
                     <div>
-                        <input type="email" name="email" placeholder="Email">
-                    </div>
-                    <div>
-                        <input type="text" name="name" placeholder="Name">
-                    </div>
-                    <div>
-                        <input type="text" name="username" placeholder="Username">
+                        <input type="text" name="username" placeholder="Username or email">
                     </div>
                     <div>
                         <input type="password" name="password" placeholder="Password">
                     </div>
                     <div>
-                        <button class="button" onclick=toHomepage()>Sign Up</button>
+                        <button class="button" onclick=toHomepage()>Login</button>
                     </div>    
                 </div>
             </div>
             <div class="bottomwrap">
-                <p>Have an account? <a href="/">Login</a></p>
+                <p>Don't have an account? <a href="/signup">Sign Up</a></p>
             </div>
         </div>
     </body>

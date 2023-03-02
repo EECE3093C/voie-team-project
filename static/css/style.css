@@ -1,12 +1,64 @@
+html {
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+}
+
 body {
-    background-color: gray;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
-  button {
-    color: purple;
-  }
+  margin: 0;
+  font-size: 2rem;
+  min-height: 1000vh;
+}
+
+#header {
+  color: black;
+}
+
+#pageheader{
+  color: brown;
+}
+
+.topwrap, .bottomwrap{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: black;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+p {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input{
+  width: 60%;
+  border-radius: 5px;
+  padding: 16px 32px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.button{
+  background-color: skyblue;
+  width: 74%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}

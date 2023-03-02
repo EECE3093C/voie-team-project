@@ -4,13 +4,15 @@
 <html lang="en">
 <html>
     <head>
-        <title>Sign In</title>
+        <title>Home Page</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     </head>
 
     <body>
-        <h1>Homepage</h1>
-        <p>This will be the homepage page.</p>
-        <button type="button" onclick="history.back()"> SignIn </button>
+        <h1 id="header">Homepage</h1>
+        <div>
+            <p><a href="/">Log Out</a></p>
+            <p><a href="/profile">Profile</a></p>
+        </div>
     </body>
 </html>
