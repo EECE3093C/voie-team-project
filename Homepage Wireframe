@@ -1,0 +1,38 @@
+Header
+-------------------
+--Logo
+--Search bar
+--Navigation menu
+-----Home
+-----Explore
+-----Notifications
+-----Profile
+------------------
+Home/Main Feed
+------------------
+--Filter by:
+-----Following
+-----Popular
+-----Recommended
+--Posts with photo/video, user name, caption, likes and comments
+------------------
+Sidebar
+------------------
+--User profile summary
+-----Profile picture
+-----Username
+-----Follower/Following count
+--Trending hashtags
+-----Hashtag link
+-----Number of posts
+--Personalized recommendations
+-----Workout plans
+-----Users to follow
+-----------Profile picture
+-----------Username
+-----------Follow button
+-----Insights
+--Progress Tracking
+-----Weight/Muscle Tracking
+-----Workout Statistics Tracking
+-----Exercise Past Calendar
