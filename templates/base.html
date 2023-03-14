@@ -1,0 +1,56 @@
+<!--  Voie Authors:   Hannah Krzywkowski | Josh Nyamsi | Kyle Willoughby | Quoc Luong   -->
+<!--  Creation Date:  March 03, 2023                                                    -->
+<!--  Project Name:   FitConnect                                                        -->
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>{% block title %}FitConnect{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="FitConnect is a health and fitness social media platform.">
+    <link rel="icon" href="{% static 'images/fitconnect-favicon.png' %}" type="image/icon">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <header class="header">
+        <figure id="logo">
+          <a href="/"><img src="../static/images/fitconnect-logo-black.png" alt="FitConnect Logo"></a>
+        </figure>
+        <p id="sitename"><a href="/">FitConnect</a></p>
+        <nav id="nav">
+          <a href="/">Home</a>
+          <a href="/search">Search</a>
+          <a href="/profile">Profile</a>
+          <a href="/settings">Settings</a>
+          <a href="/signup">Sign Up</a>
+        </nav>
+        <figure id="accounticon">
+          <a href="/account"><img src="../static/images/account-icon-black.png" alt="Account Icon"></a>
+        </figure>
+      </header>
+
+      <main>
+        {% block main %}{% endblock %}
+      </main>
+
+      <footer class="footer">
+        <figure id="logo">
+          <a href="/"><img src="../static/images/fitconnect-logo-black.png" alt="FitConnect Logo"></a>
+        </figure>
+        <p id="copyright">FitConnect&copy; 2023 Voie. All Rights Reserved. Terms of Service | Privacy Policy</p>
+      </footer>
+
+    </div>
+    <script src="{% static 'js/script.js' %}" type="text/javascript" defer></script>
+  </body>
+
+</html>
+ 
