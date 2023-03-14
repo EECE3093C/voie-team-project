@@ -1,0 +1,141 @@
+/*--    Voie Authors:   Hannah Krzywkowski | Josh Nyamsi | Kyle Willoughby | Quoc Luong     --*/
+/*--    Creation Date:  March 03, 2023                                                      --*/
+/*--    Project Name:   Name                                                                --*/
+
+@font-face
+{
+    font-family: 'Amaranth';
+    src: url('../fonts/Amaranth/Amaranth-Regular.ttf');
+}
+@font-face
+{
+    font-family: 'Nunito_Sans';
+    src: url('../fonts/Nunito_Sans/NunitoSans-Bold.ttf');
+}
+.header
+{
+    align-items: center;
+    color: RGB(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Nunito_Sans', Arial, Helvetica, Sans-Serif;
+    padding: 25px;
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+    .header #logo, .header img
+    {
+        margin: 3px 10px 0 auto;
+        width: 35px;
+    }
+    .header #sitename
+    {
+        font-family: 'Amaranth', Arial, Helvetica, sans-serif;
+        font-size: 2.0em;
+        margin-right: 5%;
+    }
+    .header #nav
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 500px;
+        width: 50%;
+    }
+    .header #accounticon
+    {
+        margin: 0 auto 0 5%;
+        width: 35px;
+    }
+    .header a
+    {
+        color: RGB(0, 0, 0);
+        text-decoration: none;
+    }
+        .header a:hover
+        {
+            color: RGB(255, 255, 225);
+        }
+main
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 1.0em;
+    min-height: 100px;
+    min-width: auto;
+}
+.homeimage
+{
+    font-family: 'Nunito_Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+    .homeimage img
+    {
+        width: 100%;
+        float: right;
+    }
+
+    .homeimage #overimagetext
+    {
+        text-align: center;
+    }
+        .homeimage #overimagetext p
+        {
+            background-color: RGB(75, 150, 225);
+            border-radius: 10px;
+            left:50%;
+            padding: 10px;
+            position: absolute;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+        }
+        .homeimage #overimagetext a
+        {
+            background-color: RGB(75, 150, 225);
+            border-radius: 10px;
+            color: RGB(0, 0, 0);
+            padding: 10px;
+            text-decoration: none;
+            left:50%;
+            position: absolute;
+            bottom: 40%;
+            transform: translate(-50%, -50%);
+        }
+.mainheading
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'Nunito_Sans', Arial, Helvetica, Sans-Serif;
+}
+.footer
+{
+    align-items: center;
+    color: RGB(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Amaranth', Arial, Helvetica, Sans-Serif;
+    font-size: 1.0em;
+    justify-content: space-between;
+    margin: -3px 0 0 0;
+    padding: 10px;
+    text-align: center;
+    width: 97.5%;
+}
+    .footer #logo, .footer img
+    {
+        margin: 1.25px 3px 0 auto;
+        width: 15px;
+    }
+            
+    .footer #copyright
+    {
+        margin-right: auto;
+    }
+
+header,
+footer
+{
+    background-color: RGB(75, 150, 225);
+}
